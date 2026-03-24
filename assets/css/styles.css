@@ -349,9 +349,9 @@ body {
 }
 
 .featured__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
-    display: flex;
-    /* justify-content: space-between; */
     gap: 30px;
 }
 
@@ -632,7 +632,7 @@ body {
 }
 
 .footer__row--top {
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer__heading {
